@@ -1,0 +1,14 @@
+Cosas que faltan:
+  • Card 5 Nicole
+  • Card 4 Nicole
+  • Card 1 Armando
+
+Falta disminuir el tamaño con tinyimagenes de: (Esto lo hago yo, Francisco)
+  • Las imágenes que están afuera de una carpeta en 3-Resources/img
+  • Las imágenes que están en la carpeta Tiers dentro de Recursos.
+  • Las imágenes de Main-Images dentro de la carptea Recursos.
+
+Falta ingresar los metadatos con chat-gpt para que se haga más fácil.
+  • Ingresar los metadatos a TODAS las páginas.
+
+Testear que todas las páginas funcionen correctamente.

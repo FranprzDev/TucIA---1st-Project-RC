@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login - TUCIA</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="../2-Estilos/style.css">
+</head>
+
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand me-2 text-light" href="../index.html">
+        <img class="me-2" src="../3-Resources/img/logito2.png" alt="TucIA logo" width="200" height="75" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mx-auto">
+          <a class="nav-link text-dark" aria-current="page" href="../4-Webs/login.html">Iniciar Sesión</a>
+          <a class="nav-link text-dark" aria-current="page" href="../4-Webs/suscripcion.html">Suscribite</a>
+          <a class="nav-link text-dark" aria-current="page" href="../4-Webs/contact.html">Contacto</a>
+          <a class="nav-link text-dark" aria-current="page" href="../1-Cards/card-3.html">Acerca de Nosotros</a>
+        </div>
+        <form class="d-flex">
+          <input class="form-control rounded-pill mx-1" type="search" placeholder="Buscar..." aria-label="Search" />
+          <button type="button" class="btn btn-warning text-dark rounded-pill">
+            <a href="./4-Webs/error404.html" class="noAncla">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABcklEQVR4nO2Wz0pCQRjFf2i6KZcKvUL2DtW+hUb5CpFUWk8hvoZZ75FEEG2yoCJz39Zc1Mr44Fz4NqEzVyTIAwP3z5xz7v3mm8PAEn8IeaAGXAIvwFjDrrt6Z3Pmij3gHZhMGQOgOg/DDNB2wg/AKbABrGqUgQbQd/Na4kajLaEv4HCKmL070tzEPLq8EwltBfC2nXkl1DTv1tT+NBR1cd+AXAix5tY0Zq2ywKM09kOIVyKdEI+mNC5CSK8iWffGoiwN2+czYyRSwT27AXoB9wVpjNIa94DrgPvE+HPRpd50nT0zuiJZIsXiXBqdmO3UT7GdnqRxEBogAxEtBkNxLO4QWAklV11kWgzOih3gW9xdItFy5nWV8Ddk9aeJ6QdQjDXOOPOJYrCpcFjTsO49c2uamCbzS6RARdti2kFgqPIWXVanNs8p8C17nxUMY31QR93rG6k0T/NQFN3JxD52nf9iXnJlv1ukcWJ+D9wu2ngJDD+Z7ItKpqFY9gAAAABJRU5ErkJggg==">
+            </a>
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col log">
+
+      </div>
+      <div class="col">
+        <h2 class="fw-bold text-center py-5">Iniciar Sesión</h2>
+        <form action="#">
+          <div class="mb-4">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" placeholder="elmagodelaIA@gmail.com" name="email" required>
+          </div>
+          <div class="mb-4">
+            <label for="password" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" placeholder="laInteligenciaArtificialesM@gica" name="password"
+              required>
+          </div>
+          <div class="mb-4">
+            <input type="checkbox" name="connected" class="form-chek-input" id="">
+            <label for="connected" class="form-chek-label">Mantener conectado</label>
+          </div>
+          <div class="d-grid">
+            <button type="submit" class="btn btn-warning rounded-pill">
+              <a href="../4-Webs/error404.html" class="noAncla text-dark">Iniciar Sesión</a>
+            </button>
+          </div>
+          <div class="my-3">
+            <span>¿No tienes cuenta? <a href="../4-Webs/error404.html">Registrarte</a></span><br>
+
+            <span><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">¿Cómo recupero mi cuenta?</a></span>
+          </div>
+        </form>
+
+        <div class="container w-100 my-3">
+          <div class="row text-center">
+            <div class="col-12">Registrarse con</div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <button class="btn btn-outline-primary w-100 my-1" onclick="href='../4-Webs/error404.html'">
+                <div class="row align-items-center">
+                  <div class="col-2">
+                    <img
+                      src="data:image/jpeg;base64,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"
+                      width="32" alt="">
+                  </div>
+                  <div class="col-10 text-center">
+                    Facebook
+                  </div>
+                </div>
+              </button>
+            </div>
+            <div class="col">
+              <button class="btn btn-outline-danger w-100 my-1">
+                <div class="row align-items-center">
+                  <div class="col-2">
+                    <img
+                      src="data:image/png;base64,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"
+                      width="32" alt="">
+                  </div>
+                  <div class="col-10 text-center">
+                    Google
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+
+        </div>
+        <div>
+
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="container-fluid">
+          <div class="row p-2">
+
+            <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center align-items-center">
+              <div class="imgContainer d-flex justify-content-center align-items-center">
+                <img src="../3-Resources/img/logito2.png" alt="logo-TucIA" width="250px" height="75px">
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-4 text-center">
+              <h4 class="text-warning font"><b>Redes Sociales</b></h4>
+              <div class="row">
+                <i class="uil uil-twitter type1"> @Tucia-Tuc</i>
+              </div>
+              <div class="row">
+                <i class="uil uil-facebook type2"> Tucia Tucuman</i>
+              </div>
+              <div class="row">
+                <i class="uil uil-whatsapp type3"> 0381-4562361</i>
+              </div>
+              <div class="row">
+                <i class="uil uil-instagram type4"><b> @TuciaT.ok</b></i>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-4 text-center">
+              <h4 class="text-dark textFooter">Legal</h4>
+              <h6 class="text-dark textFooter"><a href="error404.html" class="noAncla"
+                  style="text-decoration: none; color: black;">Terminos y
+                  Condiciones</a></h6>
+              <h6 class="text-dark textFooter"><a href="error404.html" class="noAncla"
+                  style="text-decoration: none; color: black;">Privacidad</a></h6>
+              <h6 class="text-dark textFooter">Acerca de Nosotros</h6>
+              <h6 class="text-dark textFooter">Contáctanos</h6>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title  fs-5" id="exampleModalLabel">Recuperar Contraseña</h1>
+            </div>
+            <div class="modal-body">
+              <p>1- Entra a <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal2">¿Olvidaste tu
+                  contraseña?</a> .</p><br>
+              <p>2-Ingresa tu e-mail y contraseña nueva y da click "enviar".
+                Revisa tu bandeja de entrada donde recibiras
+                una correo de verificación</p><br>
+              <p>3-Regresa a "Login" e ingresa tu e-mail y contraseña verificada</p><br>
+              <p>4-¡Listo! Puedes iniciar sesion a partir de ahora con tu contraseña nueva</p><br>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Nueva Constraseña</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="e-mail" class="col-form-label">e-mail</label>
+                  <input type="email" class="form-control" id="e-mail" placeholder="e-mail" required>
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="col-form-label"> Nueva contraseña</label>
+                  <input type="password" class="form-control" id="password" placeholder="New password" required>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+              <span><a class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal3"
+                  role="button">enviar</a></span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" tabindex="-1" id="exampleModal3">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fw-bold">Error!</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col logError">
+
+                </div>
+                <div class="col">
+                  <div class="d-flex align-items-center justify-content-center vh-100">
+                    <div class="text-center">
+                      <h1 class="display-1 fw-bold">404</h1>
+                      <p class="fs-3"> <span class="text-danger">Opps!</span> Page not found.</p>
+                      <p class="lead">
+                        La funcionalidad que Solicitaste aún no esta disponible en la pagina.
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

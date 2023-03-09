@@ -1,0 +1,230 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.container-fluid {
+    background-color: #ffffff;
+    width: 100vw;
+}
+
+.type1 {
+    font-size: 20px;
+    color: skyblue;
+}
+
+.type2 {
+    font-size: 20px;
+    color: blue;
+    position: relative;
+}
+
+.type3 {
+    font-size: 20px;
+    color: green;
+}
+
+.type4 {
+    font-size: 20px;
+    color: black;
+}
+
+
+
+.font {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.P {
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.col-4n {
+    display: flex;
+    justify-content: right;
+}
+
+.textFooter {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.imgContainer {
+    width: 100%;
+}
+
+.noAncla {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar {
+  position: sticky;
+}
+
+.lineUpMiddle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lineDownMiddle {
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  height: 3px;
+  width: 100px;
+  background-color: #493a03;
+  position: absolute;
+}
+
+.contenedor {
+  height: 100%;
+  width: 100%;
+}
+
+.log {
+    background-image: url(../3-Resources/img/loginracoon.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+  }
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.specific-button {
+    border-radius: 20%;
+    width: 100px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list-item {
+    color: rgb(116, 114, 112);
+}
+
+.card-imagen {
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+    border: solid 5px black;
+}
+
+.style-card {
+    border-radius: 20px;
+    border: solid 3px rgba(239, 164, 106, 0.812);
+}
+
+.imagenapaisada {
+    width: 100%;
+    height: 200px;
+}
+
+.middle-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.pesronalityContainer {
+    box-sizing: border-box;
+}
+
+.container-imagen {
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.card-img-pequenia {
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    width: 80%;
+    border: solid 5px black;
+}
+
+.title-color {
+    color:rgba(255, 118, 13, 0.984)
+}
+
+.logError {
+    background-image: url(../3-Resources/img/Mascota\ Racoon.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 60% auto;
+  }
+
+.imageText{
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+border-radius: 100%;
+}
+
+
+/* 
+  A PARTIR DE AQUÍ HAY ANIMACIONES. 
+  TODO EL CÓDIGO CSS LO PONEN ARRIBA.
+*/
+
+.tracking-in-expand {
+	animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+  
+.fade-in {
+	animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    30% {
+        opacity: 0.3;
+    }
+    60% {
+        opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+}
